@@ -39,7 +39,7 @@ header a {
 
 /* portfolio */
 .card {
-    max-width: 450px;
+    max-width: 100%;
 }
 .portfolio img {
     width: 100%;
