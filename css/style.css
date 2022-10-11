@@ -64,9 +64,14 @@ header a {
     color: white;
     border: 1px solid #1abc9c;
     border-radius: 5px;
-
 }
 
-
-
 /* FOOTER */
+
+footer {
+    background-color: #3a546d;
+    color: white;
+}
+.copyright {
+    background-color: #2c3e50;
+}
