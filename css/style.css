@@ -24,5 +24,15 @@ header a {
 }
 
 /* MAIN */
+#hero {
+    background-color: #1abc9c;
+    color: white;
+}
+
+#hero img {
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* FOOTER */
