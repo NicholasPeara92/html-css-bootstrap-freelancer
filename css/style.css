@@ -24,6 +24,8 @@ header a {
 }
 
 /* MAIN */
+
+/* hero */
 #hero {
     background-color: #1abc9c;
     color: white;
@@ -35,4 +37,11 @@ header a {
     margin-right: auto;
 }
 
+/* portfolio */
+.card {
+    max-width: 450px;
+}
+.portfolio img {
+    width: 100%;
+}
 /* FOOTER */
