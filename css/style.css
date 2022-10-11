@@ -58,5 +58,15 @@ header a {
     border-radius: 10px;
 }
 
+/* contact me */
+#contact-me .ms-button {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+
+}
+
+
 
 /* FOOTER */
