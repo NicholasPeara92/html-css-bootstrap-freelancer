@@ -44,4 +44,19 @@ header a {
 .portfolio img {
     width: 100%;
 }
+
+/* about */
+#about {
+    background-color: #1abc9c;
+    color: white;
+}
+#about .ms-button {
+    display: block;
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
 /* FOOTER */
