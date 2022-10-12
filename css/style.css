@@ -1,14 +1,20 @@
 
 /* HEADER */
+
 header {
     background-color: #2c3e50;
     color: white;
 }
+
 header .nav-link {
     color: white;
 }
 
 /* MAIN */
+
+h2 {
+    font-weight: bold;
+}
 
 /* hero */
 #hero {
@@ -21,13 +27,14 @@ header .nav-link {
     margin-left: auto;
     margin-right: auto;
 }
+
 .spacer {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
-
 }
+
 .spacer::before {
     content: '';
     width: 130px;
@@ -37,6 +44,7 @@ header .nav-link {
     display: block;
     margin-right: 20px;
 }
+
 .spacer::after {
     content: '';
     width: 130px;
@@ -45,8 +53,6 @@ header .nav-link {
     border-color: currentColor;
     display: block;
     margin-left: 20px;
-
-
 }
 
 /* portfolio */
@@ -79,7 +85,6 @@ header .nav-link {
     border: none;
     border-bottom: 2px solid lightgray;
     border-radius: 0;
-
 }
 
 /* FOOTER */
@@ -88,6 +93,29 @@ footer {
     background-color: #3a546d;
     color: white;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.circle a {
+    color: white;
+}
+
 .copyright {
     background-color: #2c3e50;
 }
