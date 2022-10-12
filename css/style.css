@@ -1,33 +1,3 @@
-/* VARIABLES */
-:root {
-    --ms-primary-color:var(#1abc9c);
-    --ms-secondary-color:var(#2c3e50);
-    --ms-secondary-color-light:var(#3a546d);
-}
-
-/* UTILITIES */
-
-/* background colors */
-.ms-bg-primary {
-    background-color: var(--ms-primary-color);
-}
-.ms-bg-secondary {
-    background-color: var(--ms-secondary-color);
-}
-.ms-bg-secondary-light {
-    background-color: var(--ms-secondary-color-light);
-}
-
-/* colors */
-.ms-color-primary {
-    background-color: var(--ms-primary-color);
-}
-.ms-color-secondary {
-    background-color: var(--ms-secondary-color);
-}
-.ms-color-secondary-light {
-    background-color: var(--ms-secondary-color-light);
-}
 
 /* HEADER */
 header {
@@ -36,9 +6,6 @@ header {
 }
 header .nav-link {
     color: white;
-}
-.logo {
-    font-weight: bold;
 }
 
 /* MAIN */
@@ -54,6 +21,33 @@ header .nav-link {
     margin-left: auto;
     margin-right: auto;
 }
+.spacer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+
+}
+.spacer::before {
+    content: '';
+    width: 130px;
+    height: 3px;
+    background-color: currentColor;
+    border-color: currentColor;
+    display: block;
+    margin-right: 20px;
+}
+.spacer::after {
+    content: '';
+    width: 130px;
+    height: 3px;
+    background-color: currentColor;
+    border-color: currentColor;
+    display: block;
+    margin-left: 20px;
+
+
+}
 
 /* portfolio */
 
@@ -68,7 +62,7 @@ header .nav-link {
     background-color: #1abc9c;
     color: white;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 /* contact me */
