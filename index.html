@@ -108,12 +108,23 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-8 col-xl-10">
-                            <div>Name</div>
-                            <div>Email Address</div>
-                            <div>Phone number</div>
-                            <div>Message</div>
-                            <hr>
-                            <button class="ms-button">Send</button>
+                            <div class="form-floating mb-3 ms-form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Mario Rossi">
+                                <label for="floatingInput">Name</label>
+                              </div>
+                              <div class="form-floating mb-3 ms-form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                              </div>
+                              <div class="form-floating mb-3 ms-form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="070123456">
+                                <label for="floatingInput">Phone number</label>
+                              </div>
+                              <div class="form-floating ms-form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                              </div>
+                            <button class="ms-button mt-3 px-2 py-1">Send</button>
                         </div>
                     </div>
                 </div>

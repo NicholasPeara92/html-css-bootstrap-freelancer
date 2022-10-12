@@ -71,6 +71,15 @@ header .nav-link {
     color: white;
     border: 1px solid #1abc9c;
     border-radius: 5px;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+#contact-me .form-control {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0;
+
 }
 
 /* FOOTER */
