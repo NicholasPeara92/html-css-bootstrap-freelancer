@@ -56,6 +56,13 @@ h2 {
 }
 
 /* portfolio */
+.portfolio-img {
+    width: 100%;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
 
 
 /* about */
